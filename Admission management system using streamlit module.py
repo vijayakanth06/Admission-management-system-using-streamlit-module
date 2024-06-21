@@ -77,7 +77,6 @@ def main():
         st.subheader("Insert Record")
         name = st.text_input("Enter Student Name")
         contact = st.text_input("Enter Contact Number")
-        #email = st.text_input("Enter Email Address")
         rollno = st.text_input("Enter Roll Number")
         branch = st.text_input("Enter Branch")
         email = generate_email(name)
